@@ -1,0 +1,259 @@
+body{
+    background: black;
+}
+
+main{
+    
+    flex-direction: column;
+    height: 98vh;
+    background: #ffffff;
+    width: 45%;
+    margin: auto;
+    padding: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+header h1{
+    text-align: center;
+    display: inline;
+    margin-bottom: 20px;
+    position: relative;
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 10px;
+    color: rgb(255 106 130);
+}
+
+h1::after,
+h1::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: rgb(187 181 181);
+    position: absolute;
+    top: 50%;
+    width: 154px;
+    
+}
+h1::before{
+    left: -71%;
+}
+h1::after{
+    right: -71%;
+}
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.task-card{
+    border: 1px solid rgba(160, 151, 151, 0.6);
+    padding: 20px;
+
+    width: 74%;
+    display: flex;
+}
+.heading{
+    line-height: 2.5;
+}
+.content{
+    display: flex;
+    margin-left: 20px;
+}
+.description{
+    margin: 0px 5px 0px 5px;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+p{
+    font-size: 14px;
+}
+.left{
+    float: left;
+    width: 335px;
+
+}
+#leftt
+{
+    font-family: "Google Sans Flex", sans-serif;
+}
+.leftb{
+    float: left;
+    width: 335px;
+}
+.content2 #leftt
+{
+    width: 356px;
+    color: #ff6a82;
+}
+.right{
+    float: left;
+}
+.left, .right,.leftb{
+    font-size: 16px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: bold;
+}
+strike{
+    font-size: 12px;
+    color:hsl(0deg 0% 73.33%)
+}
+span{
+    background: #ff6a82;
+    font-size: 14px;
+    margin: 16px;
+    padding: 3px;
+    color:white;
+}
+.size{
+    flex-direction: column;
+}
+select{
+    background: white;
+    padding: 5px;
+    width:75px
+}
+.dropdown { /*container for custom dropdown arrow*/
+  -webkit-appearance: none;
+  -moz-appearance: window;
+  padding: 2px 50px 2px 2px;
+  border: none;
+  background-image: url("download.png");
+ background-repeat: no-repeat;
+ background-position: right center;
+}
+#size{    
+    text-indent: 18px;
+}
+.hide ,.hide1{
+    flex-direction: row;
+    display: flex;
+}
+.hide1 .size{
+    
+}
+.colour{
+    margin-left: 20px;
+}
+.hide,.hide1{
+    display:none;
+}
+.task-card:hover .hide,.task-card:hover .hide1 {
+    flex-direction: row;
+    display: flex;
+}
+.task-card:hover{
+    background: rgb(255 249 249);
+    border: 2px solid #ff6a82;
+}
+.colour{
+    position: relative;
+}
+.colour select{
+    margin-top: 14px;
+    position: absolute;
+}
+#col select{
+    margin-top: 0px!important;
+    position: absolute;
+}
+section{
+    margin-bottom: 25px;
+}
+.hidden{
+    visibility: hidden;
+}
+#rightb{
+    float: right;
+    font-size: 16px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+.polygon{
+    position: absolute;
+    background: #ff6a82;
+    color: white;
+    margin-left: 386px;
+    font-size: 13px;
+    padding: 0.8em;
+    top: -15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: "Google Sans Flex", sans-serif;
+}
+.polygon::before {
+    content: '';
+  
+    content: '';
+    display: block;
+    border-top: 15px solid transparent;
+    border-right: 10px solid hsl(351.18deg 60.18% 55.69%);
+    position: absolute;
+    left: -9px;
+    bottom: 0;
+    top: 0px;
+    height: 0px;
+}
+.polygon::after {
+    content: '';
+    display: block;
+    border-top: 15px solid transparent;
+    border-left: 10px solid hsl(351.18deg 60.18% 55.69%);
+    position: absolute;
+    right: -9px;
+    bottom: 0;
+    top: 0px;
+    height: 0px;
+}
+.section1 .task-card{
+    position: relative;
+}
+.section3
+{
+    flex-direction: column;
+    margin: 10px 0px 10px 0px!important;
+}
+.section2{
+        margin-bottom: 10px!important;
+}
+.content2{
+    display: flex;
+
+}
+.button{
+    width: 530px;
+    margin: 10px 0px 10px 0px!important;
+    background: #ff6a82;
+    padding: 5px;
+    border: 2px solid #ff6a82;
+    border-radius: 4px;
+    color: white;
+    font-family: "Google Sans Flex", sans-serif;
+}
+#task1{
+    accent-color: #f1637a;; 
+    width: 17px;
+    border-color: #9c6464;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-width: 2px;
+            background-color: rgb(255, 255, 255);
+    outline: none;
+}
+.footer{
+    
+    font-family: "Google Sans Flex", sans-serif;
+    color: gray;font-family: "Google Sans Flex", sans-serif;
+    float: right;
+    width: 357px;
+
+}
